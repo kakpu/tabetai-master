@@ -21,4 +21,13 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+https://developers.line.biz/en/
+heroku config:set LINE_CHANNEL_SECRET=XXXX
+heroku config:set LINE_CHANNEL_TOKEN=XXXX
+
+https://api.gnavi.co.jp/api/
+heroku config:set GURUNAVI_KEY_ID=XXXX
+
+https://app.nanonets.com
+heroku config:set NANONET_MODEL_ID_VIETNHAT=XXXX
+heroku config:set NANONET_BASIC_AUTH_VIETNHAT=XXXX
